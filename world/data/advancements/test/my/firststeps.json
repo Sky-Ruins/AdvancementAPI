@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "test": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "potion": {
+          "item": "minecraft:bread",
+          "amount": 1,
+          "data": 0
+        }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:wood_sword"
+    },
+    "title": {
+      "text": "First Steps"
+    },
+    "description": {
+      "text": "Starting"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "announce_to_chat": false,
+    "show_toast": false,
+    "hidden": false
+  }
+}

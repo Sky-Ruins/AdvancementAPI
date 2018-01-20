@@ -1,0 +1,33 @@
+{
+  "parent": "test:my/firststeps",
+  "criteria": {
+    "test": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "potion": {
+          "item": "minecraft:apple",
+          "amount": 1,
+          "data": 0
+        }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_apple"
+    },
+    "title": {
+      "color": "gold",
+      "bold": true,
+      "text": "Addiction!"
+    },
+    "description": {
+      "text": "Eat an Apple"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "goal",
+    "announce_to_chat": false,
+    "show_toast": true,
+    "hidden": true
+  }
+}
